@@ -35,6 +35,10 @@ body {
     width: 95%;
     border-radius: 12px 12px 12px 0;
 }
+.main {
+    background: rgb(188,241,103);
+    background: linear-gradient(180deg, rgba(188,241,103,1) 0%, rgba(243,243,246,1) 81%, rgba(255,255,255,1) 100%);
+}
 .header, .dashBody  {
     display: flex;
     justify-content: space-between;
