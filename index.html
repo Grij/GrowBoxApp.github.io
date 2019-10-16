@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>GrowBoxApp</title>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/turn.css">
+        <link rel="stylesheet" href="/css/turn.css">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -18,11 +18,13 @@
         <div class="container">
                         <div class="main">
                                         <div class="header">
-                                                <p class="date">12/09/2020</p>
+                                                <p class="date">
+                                                                <script src="/js/date.js"></script>
+                                                </p>
                                                 <p class="step">Flowering</p>
                                         </div>
                                         <div class="logo">
-                                                        <img class="lg" src="img/logo" alt="logo">
+                                                        <img class="lg" src="/img/logo" alt="logo">
                                         </div>
                         </div>
                         <div class="dashBoard">
@@ -48,7 +50,7 @@
                         <p class="value">ВКЛ</p>
                 </div>
                 <div class="fan">
-                        <p class="textDash">Вентилятор</p>
+                        <p class="textDash">Обогреватель</p>
                         <div class="onoffswitch">
                                 <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
                                 <label class="onoffswitch-label" for="myonoffswitch">
