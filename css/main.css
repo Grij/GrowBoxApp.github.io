@@ -1,0 +1,107 @@
+* { box-sizing: border-box; }
+html, body { min-height: 100vh; margin: 0; }
+
+div,
+html,
+body,
+nav,
+header,
+hgroup,
+footer,
+section,
+article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+body {
+    background: #f9fafc;
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main, .dashBoard {
+    padding: 5px;
+    margin: 2px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border-radius: 12px 12px 12px 0;
+}
+.header, .dashBody  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 99%; 
+    position: relative;
+}
+.date, .step, .textDash, .value, .copyright, .onoffswitch { 
+    display: flex;
+    flex-basis: 100px; height: 45px;
+    text-transform: uppercase;
+    color: #a1bdcb;
+    margin: 10px;
+}
+.lg {
+    display: block;
+    width: 120px;
+    height: auto;
+}
+.logo {
+    display: flex;
+    padding: 1% 0 5% 0;
+}
+.dashBody {
+    flex-direction: column;
+}
+.temp1, .humid1, .humid2, .light, .fan {
+    border-radius: 7px 7px 7px 0;
+    margin: 7px 0;
+    flex-direction: row;
+    height: 80px;
+    background: #f3f8fb;
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(245,245,245,1);
+-moz-box-shadow: 0px 0px 2px 1px rgba(245,245,245,1);
+box-shadow: 0px 0px 2px 1px rgba(245,245,245,1);
+border: 0.5px solid #e3ecf1;
+    font-size: 20px;
+}
+.value, .temp1, .humid1, .humid2, .light, .fan, .form-switch {
+    justify-content: space-between;  
+}
+.value {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+}
+.onoffswitch {
+    display: flex;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.copyright {
+    font-size: 10px;
+    text-align: center;
+    margin: 20px 0 5px 0;
+}
+/* .temp1 {
+    background: rgba(255, 105, 120, 1);
+}
+.humid1 {
+    background: rgba(255, 252, 249, 1);
+}
+.humid2 {
+    background: rgba(177, 237, 232, 1);
+}
+.light {
+    background:rgba(109, 67, 90, 1);
+}
+.fan {
+    background: rgba(53, 45, 57, 1);
+} */
