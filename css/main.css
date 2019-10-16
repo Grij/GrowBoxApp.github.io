@@ -53,6 +53,9 @@ body {
     color: #a1bdcb;
     margin: 10px;
 }
+.date, .step {
+    color: #535e63;
+}
 .lg {
     display: block;
     width: 120px;
